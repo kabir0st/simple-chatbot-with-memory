@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and databases
+*.log
+db.sqlite3
+instance/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+*.pem
+*.key
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# pytest cache
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+tests/__pycache__/
